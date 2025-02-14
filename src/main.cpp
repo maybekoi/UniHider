@@ -11,7 +11,6 @@
 
 namespace fs = std::filesystem;
 
-// Forward declarations
 bool hideVolume(const std::string& driveLetter);
 bool hideTempDirectory(const std::string& tempDir);
 bool createRamDrive(const std::string& driveLetter);
